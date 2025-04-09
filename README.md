@@ -242,7 +242,7 @@ ItsaA full-stack web application built with **Django (backend)** and **React (fr
 
 ```json
 {
-  "post": "How can Containerize a Django application, please help me."
+  "post": "Command to create a react application"
 }
 ```
 

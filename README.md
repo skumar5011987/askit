@@ -37,14 +37,14 @@ ItsaA full-stack web application built with **Django (backend)** and **React (fr
 
 ## API Endpoints
 
-### 1. Home page
+### 1. Frontend Home page
 
 - URL: http://127.0.0.1:3000/
 - Mtehod: GET
 
 ### 2. Sign-Up
 
-- URL: http://127.0.0.1:3000/api/auth/sign-up/
+- Backend URL: http://127.0.0.1:8000/api/auth/sign-up/
 - Method: POST
 - Request Body:
 
@@ -68,7 +68,7 @@ ItsaA full-stack web application built with **Django (backend)** and **React (fr
 
 ### 3. Sign IN
 
-- URL: http://127.0.0.1:3000/api/auth/sign-up/
+- Backend URL: http://127.0.0.1:8000/api/auth/sign-up/
 - Method: POST
 - Request Body:
 
@@ -96,7 +96,7 @@ ItsaA full-stack web application built with **Django (backend)** and **React (fr
 
 ### 4. Get All Posts
 
-- URL: http://127.0.0.1:3000/api/posts/
+- Backend URL: http://127.0.0.1:8000/api/posts/
 - Method: GET
 - Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ0MTgxNjc4LCJpYXQiOjE3NDQxODEzNzgsImp0aSI6ImI2ZWM5ODhhNWEwYzRmODBiODczNGI4ZDY0NTIzNzU4IiwidXNlcl9pZCI6M30.j1ZEtsvOqIlBU5u_3fkBxqfYDW8Zm-42La3I7mt-JCc"
 - Response:
@@ -192,7 +192,7 @@ ItsaA full-stack web application built with **Django (backend)** and **React (fr
 
 ### 5. Get My Posts
 
-- URL: http://127.0.0.1:3000/api/posts/?mine=true
+- Backend URL: http://127.0.0.1:8000/api/posts/?mine=true
 - Method: GET
 - Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ0MTgxNjc4LCJpYXQiOjE3NDQxODEzNzgsImp0aSI6ImI2ZWM5ODhhNWEwYzRmODBiODczNGI4ZDY0NTIzNzU4IiwidXNlcl9pZCI6M30.j1ZEtsvOqIlBU5u_3fkBxqfYDW8Zm-42La3I7mt-JCc"
 - Response:
@@ -235,7 +235,7 @@ ItsaA full-stack web application built with **Django (backend)** and **React (fr
 
 ### 6. Post/Create a Question
 
-- URL: http://127.0.0.1:8000/api/posts/
+- Backend URL: http://127.0.0.1:8000/api/posts/
 - Method: POST
 - Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ0MTgyMjAyLCJpYXQiOjE3NDQxODE5MDIsImp0aSI6ImZjZDJmNzk3OGJjMzRlMWZhYjgyOGQ5NTYzZjE4MmFjIiwidXNlcl9pZCI6NX0.r5iH8HNUNrVu6snaAZwEijKLW3VikkEj-gHrXpxTs6Q"
 - Request Body:
@@ -263,7 +263,7 @@ ItsaA full-stack web application built with **Django (backend)** and **React (fr
 
 ### 7. Reply to a Question
 
-- URL: http://127.0.0.1:8000/api/posts/
+- Backend URL: http://127.0.0.1:8000/api/posts/
 - Method: POST
 - Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ0MTgyNzE3LCJpYXQiOjE3NDQxODI0MTcsImp0aSI6IjZjMTEyMmRlYzBhZDQwNDQ5MzFlZjRjYjM0OTc3OTIyIiwidXNlcl9pZCI6NH0.xfM9tl1DkmO9TO03R3dCu83tZybCHE2YyQMgp4Wc8w4"
 - Request Body:
@@ -291,7 +291,7 @@ ItsaA full-stack web application built with **Django (backend)** and **React (fr
 ```
 
 ### 8. Like a post
-- URL: http://127.0.0.1:8000/api/posts/
+- Backend URL: http://127.0.0.1:8000/api/posts/
 - Method: PUT
 - Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ0MTgzMTUyLCJpYXQiOjE3NDQxODI4NTIsImp0aSI6IjNhMDRlMGQ1YjJlYzQ0YmE5NmFhNDliMzc4ZWU5OTBjIiwidXNlcl9pZCI6M30.WE5qzTtk3qmZJtyijpTsTMS6KIpz2TDSByrFBTiokR8"
 - Request Body:

@@ -28,6 +28,8 @@ ItsaA full-stack web application built with **Django (backend)** and **React (fr
 
 ### 2. Build and Run the App
 
+- **Makesure you have pre installed Docker & docker-compose on your machine**
+
 - **Start the containers**
 
   - docker-compose up --build -d
